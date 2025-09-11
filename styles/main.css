@@ -26,7 +26,10 @@ img {
 main {
     clear: left;
 }
-h3 {
+main h3 {
     margin-top: 3em;
     font-size: 105%;
+}
+#list {
+    line-height: 1.5em;
 }
