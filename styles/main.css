@@ -11,7 +11,8 @@ body {
     border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0
-    background-image: slide 19;
+    background: url("images/jaydent04.png");
+    background: repeat-y right top fixed;
 }
 a:focus, a:hover {
     font-style: italic;
