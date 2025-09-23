@@ -42,7 +42,7 @@ main {
 }
 main h3 {
     font-size: 105%;
-    margin: 3em 2em 2em;
+    margin: 3em 2em 1.5em;
     border: 5px dashed #0000ff;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
