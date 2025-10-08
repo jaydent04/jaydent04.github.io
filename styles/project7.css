@@ -80,7 +80,7 @@ p.fixed {
     width: auto;
     position: fixed;
     right: 5px;
-    top: 2px;
+    bottom: 2px;
     background-color: lightgreen;
     padding: 10px;
 }
