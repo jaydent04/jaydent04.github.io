@@ -79,4 +79,5 @@ p.fixed {
     width: auto;
     position: fixed;
     float: right;
+    background-color: green;
 }
