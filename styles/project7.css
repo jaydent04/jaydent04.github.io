@@ -77,5 +77,6 @@ footer p.copyright {
 }
 p.fixed {
     width: auto;
-    
+    position: fixed;
+    float: right;
 }
