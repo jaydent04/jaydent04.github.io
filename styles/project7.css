@@ -60,12 +60,13 @@ article p::first-letter {
     font-size: 3em;
     font-weight: bold;
     font-style: italic;
-    color: blue;
+    color: lightgreen;
 }
 aside {
     width: 20%;
     float: right;
     background-color: #ffebc6;
+    padding: 10px;
 }
 footer {
     clear: both;
@@ -78,8 +79,8 @@ footer p.copyright {
 p.fixed {
     width: auto;
     position: fixed;
-    top: 5px;
+    top: 2px;
     right: 5px;
-    background-color: green;
+    background-color: lightgreen;
     padding: 10px;
 }
