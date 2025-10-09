@@ -50,6 +50,7 @@ article {
 }   
 article h3 {
     column-span: all;
+    border-top: 2px solid maroon;
 }
 article img {
     float: left;
@@ -80,7 +81,6 @@ p.fixed {
     width: auto;
     position: fixed;
     right: 5px;
-    margin-bottom: 5px;
     background-color: lightgreen;
     padding: 10px;
 }
