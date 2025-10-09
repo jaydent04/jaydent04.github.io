@@ -50,7 +50,7 @@ article {
 }   
 article h3 {
     column-span: all;
-    border-top: 5px solid maroon;
+    border-top: 2px solid maroon;
 }
 article img {
     float: left;
@@ -67,7 +67,7 @@ aside {
     width: 20%;
     float: right;
     background-color: #ffebc6;
-    padding: 10px;
+    padding: 15px;
 }
 footer {
     clear: both;
@@ -81,7 +81,7 @@ p.fixed {
     width: auto;
     position: fixed;
     right: 5px;
-    bottom: 2px;
+    z-index: 2;
     background-color: lightgreen;
     padding: 10px;
 }
