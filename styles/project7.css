@@ -26,6 +26,7 @@ h1 {
     font-size: 175%;
     color: maroon;
     text-indent: 30px;
+    border-bottom: 2px solid maroon;
 }
 h2 {
     font-size: 130%;
@@ -67,7 +68,6 @@ aside {
     float: right;
     background-color: #ffebc6;
     padding: 10px;
-    border-top: 2px solid maroon;
 }
 footer {
     clear: both;
