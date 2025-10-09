@@ -83,6 +83,7 @@ p.fixed {
     position: fixed;
     right: 5px;
     bottom: 2px;
+    height: 5px;
     background-color: lightgreen;
     padding: 10px;
 }
