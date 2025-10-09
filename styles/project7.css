@@ -31,7 +31,7 @@ h2 {
     font-size: 130%;
     color: #800000;
     text-indent: 30px;
-    padding-bottom: 5em;
+    padding-bottom: 10em;
     border-bottom: 2px solid maroon;
 }
 img {
@@ -83,7 +83,6 @@ p.fixed {
     position: fixed;
     right: 5px;
     bottom: 2px;
-    height: 5px;
     background-color: lightgreen;
     padding: 10px;
 }
