@@ -22,7 +22,7 @@
     color: yellow;
 }
 h1 {
-    padding-bottom: 2px;
+    display: inline;
 }
 aside ol {
     list-style-type: upper-roman;
