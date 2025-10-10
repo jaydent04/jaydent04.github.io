@@ -21,10 +21,7 @@
 #nav_menu ul li a.current {
     color: yellow;
 }
-article h1 {
-    display: inline-block;
-}
-article h2 {
+h1 {
     display: inline-block;
 }
 aside ol {
