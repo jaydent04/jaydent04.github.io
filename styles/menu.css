@@ -1,8 +1,8 @@
-nav.menu ul {
+main nav ul {
     list-style-type: none;
     float: left;
 }
-nav.menu ul li a {
+main nav ul li a {
     text-align: center;
     display: block;
     width: 175px;
@@ -13,10 +13,10 @@ nav.menu ul li a {
     font-weight: bold;
     border-right: 2px solid white;
 }
-nav.menu ul li a.lastitem {
+main nav ul li a.lastitem {
     border-right: none;
 }
-nav.menu ul li a.current {
+main nav ul li a.current {
     color: yellow;
 }
 aside ol {
