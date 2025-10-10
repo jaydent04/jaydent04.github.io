@@ -1,6 +1,10 @@
-main nav {
+#nav_menu ul {
     list-style-type: none;
+}
+#nav_menu ul li {    
     float: left;
+}
+#nav_menu ul li a {    
     text-align: center;
     display: block;
     width: 175px;
@@ -10,6 +14,12 @@ main nav {
     color: white;
     font-weight: bold;
     border-right: 2px solid white;
+}
+#nav_menu ul li a.lastitem {
+    border-right: none;
+}
+#nav_menu ul li a.current {
+    color: yellow;
 }
 aside ol {
     list-style-type: upper-roman;
