@@ -22,8 +22,10 @@
     color: yellow;
 }
 article h1 {
-    text-align: left;
-    display: inline;
+    display: inline-block;
+}
+article h2 {
+    display: inline-block;
 }
 aside ol {
     list-style-type: upper-roman;
