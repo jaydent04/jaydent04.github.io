@@ -18,9 +18,8 @@
 #nav_menu ul li a.current {
     color: yellow;
 }
-h2 {
-    font-weight: bold;
-    color: blue;
+h1 {
+    float: left;
 }
 aside ol {
     list-style-type: upper-roman;
