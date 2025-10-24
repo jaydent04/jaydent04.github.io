@@ -26,6 +26,7 @@ header {
 }
 article {
     padding: 20px;
+    color: blue;
 }
 aside ol {
     list-style-type: upper-roman;
