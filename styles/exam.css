@@ -15,7 +15,8 @@ body {
     background-attachment: fixed;
 }
 #nav_menu {
-    border-bottom: 3px solid blue
+    padding-bottom: 2em;
+    border-bottom: 3px solid blue;
 }
 #nav_menu ul {
     list-style-type: none;
