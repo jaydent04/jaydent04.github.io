@@ -1,12 +1,9 @@
 html {
     background-image: linear-gradient(to left, white 0%, lightblue 100%)
 }
-nav {
-    border-bottom: 2px solid blue;
-    padding-bottom: 2em;
-}
 #nav_menu ul {
     list-style-type: none;
+    border-bottom: 2px solid blue;
 }
 #nav_menu ul li {    
     float: left;
