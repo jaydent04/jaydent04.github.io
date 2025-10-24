@@ -27,6 +27,9 @@ header {
 article {
     padding: 20px;
     float: left;
+    column-count: 3;
+    column-rule: 2px dotted blue;
+    column-gap: 2em;
 }
 aside ol {
     list-style-type: upper-roman;
