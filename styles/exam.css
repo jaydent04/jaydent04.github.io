@@ -25,12 +25,12 @@ header {
     padding: 20px;
 }
 article {
-    color: blue;
     padding: 20px;
     float: left;
     column-count: 3;
     column-rule: 2px dotted blue;
     column-gap: 2em;
+    color: blue;
 }
 aside ol {
     list-style-type: upper-roman;
