@@ -1,13 +1,15 @@
 html {
     background-image: linear-gradient(to left, white 0%, lightblue 100%)
 }
+#nav_menu {
+    padding-bottom: 2em;
+    border-bottom: 2px solid blue;
+}
 #nav_menu ul {
     list-style-type: none;
 }
 #nav_menu ul li {    
     float: left;
-    padding-bottom: 2em;
-    border-bottom: 2px solid blue;
 }
 #nav_menu ul li a {   
     text-align: center;
