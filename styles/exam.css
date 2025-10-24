@@ -26,10 +26,14 @@ header {
 }
 article {
     padding: 20px;
+    float: left;
 }
 aside ol {
     list-style-type: upper-roman;
 }
 aside ul {
     list-style-type: lower-alpha;
+}
+img {
+    float: left;
 }
