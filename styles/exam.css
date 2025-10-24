@@ -32,7 +32,6 @@ body {
     background-attachment: fixed;
 }
 h1 {
-    margin-bottom: 10px;
     color: blue;
     font-weight: bold;
 }
@@ -57,15 +56,6 @@ article p::first-letter {
     font-style: italic;
     color: black;
 }
-aside ol {
-    list-style-type: upper-roman;
-}
-aside li {
-    list-style-type: disc;
-}
-aside ul {
-    list-style-type: lower-alpha;
-}
 aside {
     width: 20%;
     right: 5px;
@@ -73,6 +63,12 @@ aside {
     background-color: lightblue;
     padding: 10px;
     border: 1px solid black;
+}
+.list-style-a {
+    list-style-type: upper-roman;
+}
+.list-style-b {
+    list-style-type: lower-alpha;
 }
 img {
     float: left;
