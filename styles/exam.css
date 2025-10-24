@@ -72,6 +72,7 @@ img {
     float: left;
 }
 footer {
+    text-align: center;
     border-top: 2px solid blue;
     border-right: 1px black;
 }
