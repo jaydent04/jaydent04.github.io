@@ -1,10 +1,15 @@
+html {
+    background-image: linear-gradient(to left, white 0%, lightblue 100%)
+}
+#nav_menu {
+    padding-bottom: 2em;
+    border-bottom: 2px solid blue
+}
 #nav_menu ul {
     list-style-type: none;
 }
-#nav_menu ul li {    
-    float: left;
-}
 #nav_menu ul li a {    
+    float: left;
     text-align: center;
     display: block;
     width: 175px;
@@ -14,8 +19,6 @@
     color: white;
     font-weight: bold;
     border-right: 2px solid white;
-    padding-bottom: 2em;
-    border-bottom: 2px solid blue;
 }
 #nav_menu ul li a.current {
     color: yellow;
@@ -25,6 +28,7 @@ body {
     margin: 15px auto;
     padding: 15px 1.5em;
     border: 1px solid black;
+    border-radius: 25px;
     background-image: url(../images/smileyface.png);
     background-repeat: repeat-y;
     background-position: right;
