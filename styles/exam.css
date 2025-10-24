@@ -23,7 +23,7 @@ html {
 }
 #nav_menu {
     border-bottom: 2px solid blue;
-    padding-bottom: 5px;
+    padding-bottom: 2em;
 }
 body {
     width: 95%;
