@@ -20,6 +20,10 @@
 }
 h1 {
     margin-bottom: 10px;
+    color: blue;
+}
+h2 {
+    color: blue;
 }
 header {
     padding: 20px;
@@ -30,7 +34,6 @@ article {
     column-count: 3;
     column-rule: 2px dotted blue;
     column-gap: 2em;
-    color: blue;
 }
 aside ol {
     list-style-type: upper-roman;
