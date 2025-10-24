@@ -14,6 +14,10 @@ body {
     background-position: right;
     background-attachment: fixed;
 }
+#nav_menu {
+    border-bottom: 2px solid blue;
+    padding-bottom: 4em;
+}
 #nav_menu ul {
     list-style-type: none;
 }
