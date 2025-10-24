@@ -1,13 +1,13 @@
 html {
     background-image: linear-gradient(to left, white 0%, lightblue 100%)
 }
-.menu ul {
+.menu {
     list-style-type: none;
 }
-.menu ul li {    
+.menu li {    
     float: left;
 }
-.menu ul li a {   
+.menu li a {   
     text-align: center;
     display: block;
     width: 175px;
@@ -18,7 +18,7 @@ html {
     font-weight: bold;
     border-right: 2px solid white;
 }
-.menu ul li a.current {
+.menu li a.current {
     color: yellow;
 }
 nav {
