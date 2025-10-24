@@ -3,6 +3,7 @@ html {
 }
 #nav_menu ul {
     list-style-type: none;
+    padding-bottom: 2em;
     border-bottom: 2px solid blue;
 }
 #nav_menu ul li {    
