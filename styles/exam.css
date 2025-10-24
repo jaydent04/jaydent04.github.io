@@ -1,4 +1,4 @@
-header {
+#nav_menu {
     border-bottom: 2px solid blue;
 }
 #nav_menu ul {
@@ -24,6 +24,7 @@ header {
 body {
     width: 95%;
     margin: 15px auto;
+    padding: 15px 1.5em;
     background-image: url(../images/smileyface.png);
     background-repeat: repeat-y;
     background-position: right;
@@ -63,22 +64,9 @@ aside {
     padding: 10px;
     border: 1px solid black;
 }
-aside ol {
-    list-style-type: upper-roman;
-    position: fixed;
-    background-color: lightblue;
-    padding: 10px;
-    border: 1px solid black;
-}
-aside ul {
-    list-style-type: lower-alpha;
-    position: fixed;
-    background-color: lightblue;
-    padding: 10px;
-    border: 1px solid black;
-}
 img {
     float: left;
+    margin-left: 2em;
 }
 footer {
     clear: both;
@@ -87,5 +75,4 @@ footer {
 footer p.copyright {
     text-align: center;
     font-size: 80%;
-    border-right: 1px black;
 }
