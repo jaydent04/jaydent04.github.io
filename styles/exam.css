@@ -77,7 +77,7 @@ aside {
     list-style-type: upper-roman;
 }
 .list-style-b {
-    list-style-type: disc;
+    list-style-type: square;
 }
 .list-style-c {
     list-style-type: lower-alpha;
