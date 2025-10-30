@@ -39,9 +39,9 @@ body {
     color: yellow;
 }
 h1 {
+    column-span: all;
     color: blue;
     font-weight: bold;
-    column-span: all;
 }
 h2 {
     color: blue;
