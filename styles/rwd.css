@@ -55,11 +55,11 @@ html, body {
     border-radius: 2px;
 }
 .menu-button::before {
-    content: ";
+    content: "";
     margin-top: -8px;
 }
 .menu-button::after {
-    content: ";
+    content: "";
     margin-top: 8px;
 }
 #menu-toggle:checked + .menu-button-container .menu-button::before {
@@ -94,7 +94,7 @@ article img {
     margin: auto;
     display: block;
     width: 100%;
-    max-width: 760px;
+    max-width: 3840px;
 }
 footer {
     border-top: 2px solid #f46b45;
