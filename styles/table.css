@@ -43,7 +43,6 @@ table.third {
 table.third th, table.third td {
     padding: 0.7em;
     vertical-align: top;
-    border: none;
 }
 table.third thead tr:first-child {
     background-color: lightgreen;
