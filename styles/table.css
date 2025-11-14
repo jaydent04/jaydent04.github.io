@@ -44,16 +44,16 @@ table.third th, table.third td {
     padding: 0.7em;
     vertical-align: top;
 }
-table.third thead tr:first-child {
+table.third thead tr:first-child th {
     background-color: lightgreen;
     border-top: 2px solid orangered;
 }
-table.third thead tr:nth-child(2) {
+table.third thead tr:nth-child(2) th {
     background-color: lightgreen;
     border-top: 2px solid orangered;
     border-bottom: 2px solid orangered;
 }
-table.third tbody tr:last-child {
+table.third tbody tr:last-child td {
     border-bottom: 2px solid orangered;
 }
 @media only screen and (max-width: 425px) {
