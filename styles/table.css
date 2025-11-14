@@ -35,8 +35,10 @@ table.second thead tr:first-child {
 table.third {
     border-collapse: separate;
     border-spacing: 0;
+    border-top: 2px solid orangered;
     border-right: none;
     border-left: none;
+    border-bottom: 2px solid orangered;
 }
 table.third th, table.third td {
     padding: 0.7em;
