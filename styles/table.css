@@ -32,3 +32,37 @@ table.second th, table.second td {
 table.second thead tr:first-child {
     border-bottom: 2px solid purple;
 }
+table.third {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 600px;
+    border: 2px solid orangered;
+    border-right: none;
+    border-left: none;
+}
+table.third th, table.third td {
+    padding: 0.7em;
+    vertical-align: top;
+    border: none;
+}
+table.third thead tr:first-child th {
+    border-top: 2px solid orangered;
+    background-color: lightgreen;
+}
+table.third thead tr:last-child th {
+    border-top: 2px solid orangered;
+    border-bottom: 2px solid orangered;
+    background-color: lightgreen;
+}
+table.third tbody tr:last-child {
+    border-bottom: 2px solid orangered;
+}
+@media only screen and (max-width: 425px) {
+    th, td {
+        display: block;
+    }
+    thead, td.number {
+        display: none;
+        padding: 0;
+    }
+}
