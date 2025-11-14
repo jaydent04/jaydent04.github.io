@@ -35,7 +35,6 @@ table.second thead tr:first-child {
 table.third {
     border-collapse: separate;
     border-spacing: 0;
-    border-top: 2px solid orangered;
     border-right: none;
     border-left: none;
     border-bottom: 2px solid orangered;
@@ -51,9 +50,6 @@ table.third thead tr:first-child th {
 table.third thead tr:nth-child(2) th {
     background-color: lightgreen;
     border-top: 2px solid orangered;
-    border-bottom: 2px solid orangered;
-}
-table.third tbody tr:last-child td {
     border-bottom: 2px solid orangered;
 }
 @media only screen and (max-width: 425px) {
