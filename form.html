@@ -56,30 +56,32 @@
         </select><br>
         <label for="start_date">Starting Date:</label>
         <input type="date" name="start_date" id="start_date" required><br>
-        <label for="tickets">Tickets:</label>
+        <label for="tickets">Tickets for Guests:</label>
         <input type="number" name="tickets" id="tickets" min="1" max="4" value="2"><br>
     </fieldset>
     <fieldset>
         <legend>How Did You Hear About Us?</legend>
-        <label for="referral">Referral Source:</label>
-        <select name="referral" id="referral">
-            <option value="Internet">Internet Search</option>
-            <option value="Friend">Friend/Family</option>
-            <option value="Advertisement">Advertisement</option>
-            <option value="Other">Other</option>
-        </select><br>
+        <label for="search engine">Search Engine</label>
+        <input type="checkbox" name="search engine" id="search engine"><br>
+        <label for="social media">Social Media</label>
+        <input type="checkbox" name="social media" id="social media"><br>
+        <label for="email">Email</label>
+        <input type="checkbox" name="email" id="email"><br>
+        <label for="friend or colleague">Friend or colleague</label>
+        <input type="checkbox" name="friend or colleague" id="friend or colleage"><br>
     </fieldset>
     <fieldset>
         <legend>Comments</legend>
-        <label for="comments">Comments:</label>
         <textarea id="comments" name="comments"></textarea><br>
+        <input type="text" name="comments" id="comments"
+            placeholder="If you have any comments, please enter them here."><br>
     </fieldset>
     <fieldset id="buttons">
         <legend>Submit Your Membership</legend>
         <label></label>
-        <input type="submit" value="Submit Membership">
+        <input type="submit" id="submit" value="Submit">
         <label></label>
-        <input type="reset" value="Reset Form"><br>
+        <input type="reset" id="reset" value="Reset Fields"><br>
     </fieldset>
 </body>
 </html>
